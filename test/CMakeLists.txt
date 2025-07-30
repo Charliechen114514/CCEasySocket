@@ -1,0 +1,5 @@
+add_executable(test_sockets test_sockets.cpp)
+target_link_libraries(test_sockets PUBLIC SocketsLibrary)
+
+add_executable(test_clients test_client.cpp)
+target_link_libraries(test_clients PUBLIC SocketsLibrary)
